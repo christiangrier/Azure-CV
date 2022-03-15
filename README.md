@@ -6,5 +6,5 @@
 - [ ] Visitor Counter
 - [ ] Deploy App to Azure 
 - [ ] CI/CD Github Action
-    - [ ]Static website
-    - [ ]Counter Function
+    - [ ] Static website
+    - [ ] Counter Function
