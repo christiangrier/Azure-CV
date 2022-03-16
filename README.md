@@ -3,7 +3,7 @@
 ## Steps to completion:
 - [x] Build Repo
 - [x] Frontend (HTML, CSS, JS)
-- [ ] Visitor Counter
+- [x] Visitor Counter
 - [ ] Deploy App to Azure 
 - [ ] CI/CD Github Action
     - [ ] Static website
