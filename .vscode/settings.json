@@ -1,7 +1,9 @@
 {
-    "azureFunctions.deploySubpath": "backend",
+    "azureFunctions.deploySubpath": "api",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureFunctions.projectLanguageModel": 2
 }

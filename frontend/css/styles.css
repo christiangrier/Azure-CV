@@ -1558,6 +1558,14 @@ hr.fancy::before {
     color       : var(--color-text-dark);
 }
 
+.attention-getter-counter {
+    font-family : var(--font-1);
+    font-weight : 300;
+    font-size   : var(--text-md);
+    line-height : var(--vspace-1_25);
+    color       : var(--color-1);
+}
+
 .pull-quote {
     position   : relative;
     padding    : 0;
