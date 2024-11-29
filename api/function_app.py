@@ -3,7 +3,7 @@ import azure.functions as func
 from azure.cosmos import CosmosClient, exceptions
 import logging
 
-app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
+app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 CONNECTION_STRING = os.environ['AzureCosmosDBConnectionString']
 COSMOS_CLIENT = CosmosClient.from_connection_string(conn_str=CONNECTION_STRING)
