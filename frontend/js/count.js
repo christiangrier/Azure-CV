@@ -4,7 +4,7 @@ span.textContent = "Loading Count...";
 // Define a function to fetch the value from the endpoint
 function fetchValue() {
   // Use the fetch API to make a GET request
-  fetch("http://localhost:7071/api/http_trigger")
+  fetch("https://cg-getresumecounter.azurewebsites.net/api/http_trigger?")
     .then(response => response.json()) // Parse the response as JSON
     .then(data => {
       // Update the span text with the data value
